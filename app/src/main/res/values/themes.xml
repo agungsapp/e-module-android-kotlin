@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Module" parent="Theme.MaterialComponents.Light.Bridge">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="Theme.Module" parent="Base.Theme.Module" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title." parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+</resources>

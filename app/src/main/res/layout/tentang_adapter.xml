@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/card_rounded_white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageDosen"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_weight="1"
+            tools:src="@drawable/tentang_1"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:id="@+id/namaDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. bla bla bla. M.pd"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
